@@ -1,0 +1,14 @@
+public class harshit
+{
+ public static void main(String[] args)
+  {
+    int a =37;
+    int b= 73;
+    int sum=a+b;
+    int product=a*b;
+    System.out.println("a="+a);
+    System.out.println("b="+b);
+    System.out.println("sum="+sum);
+    System.out.println("product="+product);
+  }
+}

@@ -1,0 +1,8 @@
+JavaCC is a generator for Java lexers and Java parsers. A Java lexer and parser generator is a tool that reads a grammar specification and converts it to a Java program that can recognize matches to the grammar.
+
+This tutorial focuses specifically on lexers. Lexical analysis, or "lexing", is the process of converting a sequence of characters into a sequence of tokens. Functionality that performs lexical analysis is called a lexical analyzer, a lexer, or a scanner. In this tutorial, the term "lexer" will be used. A lexer typically exists as a single function called by a parser. For example, while a typical lexer recognizes parentheses as tokens, it does nothing to ensure that an opening parentheses is matched by a closing parentheses, which is a task for a parser.
+
+Part 2 of this tutorial, the JavaCC Parser Generator Integration Tutorial, shows you how to create a parser that parses the same text that the lexer in this tutorial lexes.
+
+The NetBeans Platform provides hooks for integrating a lexer into your own Java desktop application on the NetBeans Platform. For example, in this tutorial, you use a sample grammar specification provided by JavaCC to generate a lexer and use it to create syntax coloring in an editor for a simplified Java language defined by the sample grammar specification:
+
